@@ -1,0 +1,19 @@
+{
+  "name": "meteored_7days",
+  "version": "1.0.0",
+  "description": "Return the 7 days weather table information from Meteored",
+  "main": "scrap.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "tob_ias",
+  "license": "ISC"
+}
