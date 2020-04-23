@@ -1,19 +1,30 @@
 {
-  "name": "meteored_7days",
+  "name": "meteored-7",
   "version": "1.0.0",
-  "description": "Return the 7 days weather table information from Meteored",
+  "description": "Simple scrap from meteored's 7-days weather table",
   "main": "scrap.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "fetch": "^1.1.0",
     "request": "^2.88.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tob-1as/Meteored-7days-scrap.git"
+  },
   "keywords": [
-    "weather"
+    "weather",
+    "meteored",
+    "scrap"
   ],
-  "author": "tob_ias",
-  "license": "ISC"
+  "author": "tob-1as",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tob-1as/Meteored-7days-scrap/issues"
+  },
+  "homepage": "https://github.com/tob-1as/Meteored-7days-scrap#readme"
 }
