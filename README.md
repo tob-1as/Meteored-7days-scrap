@@ -6,6 +6,9 @@
   Utiliza NPM para instalar el paquete.<br />
   *Use NPM to install the package.*
   
+## Instalación
+  Utiliza NPM para instalar el paquete.
+  
   ``` bash
   npm install meteored-7
   ```
