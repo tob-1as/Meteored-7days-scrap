@@ -1,6 +1,6 @@
 {
   "name": "meteored-7",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple scrap from meteored's 7-days weather table",
   "main": "scrap.js",
   "dependencies": {
