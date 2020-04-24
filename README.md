@@ -1,9 +1,9 @@
 # Meteored-7
-  Escrito en JavaScript, Meteored-7 es un scraping de la tabla de 7 días del clima de Meteored.cl. La función retorna un arreglo de 7 objetos, cada uno un día y su respectiva información.
+  Escrito en JavaScript, Meteored-7 es un scraping de la tabla de 7 días del clima de Meteored.cl. La función retorna un arreglo de 7 objetos, cada uno un día y su respectiva información.<br />
   *Written in JavaScript, Meteored-7 is a Meteored's 7-days weather table scraping. This function returns a 7 length array, each a day and their respective information.*
   
 ## Instalación
-  Utiliza NPM para instalar el paquete.
+  Utiliza NPM para instalar el paquete.<br />
   *Use NPM to install the package.*
   
   ``` bash
@@ -11,7 +11,7 @@
   ```
   
 ## Uso
-  Como parámetro se require una URL y retorna un arreglo de la información de cada día.
+  Como parámetro se require una URL y retorna un arreglo de la información de cada día.<br />
   *As parameter a URL is required, and it returns an array containing the weather data from each day.*
   
   ```javascript
@@ -27,7 +27,7 @@
   ```
 ## Retorno
 
-La función del ejemplo anterior retorna un arreglo como este:
+La función del ejemplo anterior retorna un arreglo como este:<br />
 *The function from the previous example returns an array like this one:*
 
 ``` javascript
