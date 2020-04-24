@@ -1,9 +1,8 @@
 const cheerio = require('cheerio');
 const request = require('request');
-const url = 'https://www.meteored.cl/tiempo-en_Valdivia-America+Sur-Chile-Los+Lagos--1-18266.html';
 
 
-function clima(url = url) {
+function clima(url = 'https://www.meteored.cl/tiempo-en_Valdivia-America+Sur-Chile-Los+Lagos--1-18266.html') {
 
     return new Promise( (resolve, reject)=>{
         request( url , (err, res, body)=>{
@@ -47,4 +46,4 @@ function clima(url = url) {
     });
 }
 
-exports = clima
+exports.get = clima
